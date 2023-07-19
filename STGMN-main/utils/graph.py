@@ -2,7 +2,7 @@ import numpy as np
 import torch
 import csv
 import scipy.sparse as sp
-def get_adjacent_matrix(distance_file: str, num_nodes: int, id_file: str = None, graph_type="distance") -> np.array:
+def get_adjacent_matrix(distance_file: str, num_nodes: int, id_file: str = None, graph_type="connect") -> np.array:
     """
     :param distance_file: str, path of csv file to save the distances between nodes.
     :param num_nodes: int, number of nodes in the graph
@@ -33,7 +33,7 @@ def get_adjacent_matrix(distance_file: str, num_nodes: int, id_file: str = None,
                         A[node_id_dict[j], node_id_dict[i]] = 1. / distance
                     else:
                         raise ValueError("graph type is not correct (connect or distance)")
-        return torch.from_numpy(A)
+        return A
 
     with open(distance_file, "r") as f_d:
         f_d.readline()
@@ -51,7 +51,7 @@ def get_adjacent_matrix(distance_file: str, num_nodes: int, id_file: str = None,
             else:
                 raise ValueError("graph type is not correct (connect or distance)")
 
-    return torch.from_numpy(A)
+    return A
 def get_adjacent_matrix2(distance_file: str, num_nodes: int,  graph_type="connect") -> np.array:
     """
     :param distance_file: str, 用于保存节点之间距离的文件
