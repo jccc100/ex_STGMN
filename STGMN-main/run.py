@@ -78,7 +78,7 @@ def main():
         num_nodes = 170
     elif (dataset == "PEMS03"):
         if torch.cuda.is_available():
-            adj_file = "data/PEMS083/distance.csv"
+            adj_file = "data/PEMS03/distance.csv"
         else:
             adj_file = "data/PEMS03/distance.csv"
         num_nodes = 358
