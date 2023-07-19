@@ -24,7 +24,7 @@ def load_data(dataset):
         # data = np.load(data_path)['data'][:, :, 0]  #onley the first dimension, traffic flow data
     elif dataset == 'PEMS03':
         # data_path = os.path.join('/home/ZhangM/expGCN/data/PEMS08/pems08.npz')
-        data_path = os.path.join('data/PEMS03/pems03.npz')
+        data_path = os.path.join('data/PEMS03/PEMS03.npz')
         data = np.load(data_path)['data']
     else:
         raise ValueError
