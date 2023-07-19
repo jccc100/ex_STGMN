@@ -86,7 +86,7 @@ def main():
     train_loader, test_loader, scaler,train_data,test_data = get_dataloader(dataset =dataset,day_split=day_split,time_interval=5,
                                                                                seq_len=history_len,pre_len=pre_len,batch_size=50)
     #Load adj 
-    adj = get_adjacent_matrix(adj_file, id_file='../data/PEMS03/PEMS03.txt', num_nodes=num_nodes)
+    adj = get_adjacent_matrix(adj_file, id_file='data/PEMS03/PEMS03.txt', num_nodes=num_nodes)
     # print(adj)
     # adj = torch.tensor(adj, dtype=torch.float32)
     if(gcn_choose == "chebi"): #[kt,n,n]
