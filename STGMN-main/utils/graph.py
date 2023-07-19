@@ -2,8 +2,57 @@ import numpy as np
 import torch
 import csv
 import scipy.sparse as sp
+def get_adjacent_matrix(distance_file: str, num_nodes: int, id_file: str = None, graph_type="distance") -> np.array:
+    """
+    :param distance_file: str, path of csv file to save the distances between nodes.
+    :param num_nodes: int, number of nodes in the graph
+    :param id_file: str, path of txt file to save the order of the nodes.
+    :param graph_type: str, ["connect", "distance"]
+    :return:
+        np.array(N, N)
+    """
+    A = np.zeros([int(num_nodes), int(num_nodes)])
 
-def get_adjacent_matrix(distance_file: str, num_nodes: int,  graph_type="connect") -> np.array:
+    if id_file:
+        with open(id_file, "r") as f_id:
+
+            node_id_dict = {int(node_id): idx for idx, node_id in enumerate(f_id.read().strip().split("\n"))}
+
+            with open(distance_file, "r") as f_d:
+                f_d.readline()
+                reader = csv.reader(f_d)
+                for item in reader:
+                    if len(item) != 3:
+                        continue
+                    i, j, distance = int(item[0]), int(item[1]), float(item[2])
+                    if graph_type == "connect":
+                        A[node_id_dict[i], node_id_dict[j]] = 1.
+                        A[node_id_dict[j], node_id_dict[i]] = 1.
+                    elif graph_type == "distance":
+                        A[node_id_dict[i], node_id_dict[j]] = 1. / distance
+                        A[node_id_dict[j], node_id_dict[i]] = 1. / distance
+                    else:
+                        raise ValueError("graph type is not correct (connect or distance)")
+        return torch.from_numpy(A)
+
+    with open(distance_file, "r") as f_d:
+        f_d.readline()
+        reader = csv.reader(f_d)
+        for item in reader:
+            if len(item) != 3:
+                continue
+            i, j, distance = int(item[0]), int(item[1]), float(item[2])
+
+            if graph_type == "connect":
+                A[i, j], A[j, i] = 1., 1.
+            elif graph_type == "distance":
+                A[i, j] = 1. / distance
+                A[j, i] = 1. / distance
+            else:
+                raise ValueError("graph type is not correct (connect or distance)")
+
+    return torch.from_numpy(A)
+def get_adjacent_matrix2(distance_file: str, num_nodes: int,  graph_type="connect") -> np.array:
     """
     :param distance_file: str, 用于保存节点之间距离的文件
     :param num_nodes: int, number of nodes in the graph
