@@ -16,7 +16,7 @@ from model.STGMN import *
 # from GCNmodels import *
 import numpy
 # print(torch.version.cuda)
-# print(torch.cuda.is_available())
+print(torch.cuda.is_available())
 # exit()
 """
      Dataset description：
