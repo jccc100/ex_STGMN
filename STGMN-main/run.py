@@ -57,7 +57,7 @@ def main():
     '''
     参数设置
     '''
-    dataset ="PEMS08"  #数据集
+    dataset ="PEMS03"  #数据集
     history_len = 12   #历史数据
     pre_len = 12     #预测数据长度
     day_split = True   #划分训练、测试集合
