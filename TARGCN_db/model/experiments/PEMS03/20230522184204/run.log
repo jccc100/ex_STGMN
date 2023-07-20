@@ -1,0 +1,28 @@
+2023-05-22 18:42: Experiment log path in: C:\Users\Jesse\Desktop\´ð±ç\Traffic_models\TARGCN_db\model\experiments\PEMS03\20230522184204
+2023-05-22 18:42: Train Epoch 0: 0/490 Loss: 191.658142
+2023-05-22 18:42: Train Epoch 0: 20/490 Loss: 129.769928
+2023-05-22 18:42: Train Epoch 0: 40/490 Loss: 154.248398
+2023-05-22 18:42: Train Epoch 0: 60/490 Loss: 139.447327
+2023-05-22 18:42: Train Epoch 0: 80/490 Loss: 94.518616
+2023-05-22 18:42: Train Epoch 0: 100/490 Loss: 104.948540
+2023-05-22 18:42: Train Epoch 0: 120/490 Loss: 74.272118
+2023-05-22 18:42: Train Epoch 0: 140/490 Loss: 81.049164
+2023-05-22 18:42: Train Epoch 0: 160/490 Loss: 57.559982
+2023-05-22 18:42: Train Epoch 0: 180/490 Loss: 57.461220
+2023-05-22 18:42: Train Epoch 0: 200/490 Loss: 41.103512
+2023-05-22 18:42: Train Epoch 0: 220/490 Loss: 37.785854
+2023-05-22 18:42: Train Epoch 0: 240/490 Loss: 39.960167
+2023-05-22 18:43: Train Epoch 0: 260/490 Loss: 38.630238
+2023-05-22 18:43: Train Epoch 0: 280/490 Loss: 30.374786
+2023-05-22 18:43: Train Epoch 0: 300/490 Loss: 25.831533
+2023-05-22 18:43: Train Epoch 0: 320/490 Loss: 31.618414
+2023-05-22 18:43: Train Epoch 0: 340/490 Loss: 25.587015
+2023-05-22 18:43: Train Epoch 0: 360/490 Loss: 24.995853
+2023-05-22 18:43: Train Epoch 0: 380/490 Loss: 24.026035
+2023-05-22 18:43: Train Epoch 0: 400/490 Loss: 30.923098
+2023-05-22 18:43: Train Epoch 0: 420/490 Loss: 20.845886
+2023-05-22 18:43: Train Epoch 0: 440/490 Loss: 19.733866
+2023-05-22 18:43: Train Epoch 0: 460/490 Loss: 23.540926
+2023-05-22 18:43: Train Epoch 0: 480/490 Loss: 18.357288
+2023-05-22 18:43: **********Train Epoch 0: averaged Loss: 60.034602, tf_ratio: 1.000000
+2023-05-22 18:44: **********Val Epoch 0: average Loss: 21.712462

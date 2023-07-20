@@ -1,0 +1,72 @@
+2023-07-20 22:55: Experiment log path in: D:\旧电脑文件\毕业相关\答辩\Traffic_models\TARGCN_db\model\experiments\PEMS03\20230720225518
+2023-07-20 22:55: Train Epoch 0: 0/490 Loss: 191.518295
+2023-07-20 22:55: Train Epoch 0: 20/490 Loss: 129.992859
+2023-07-20 22:55: Train Epoch 0: 40/490 Loss: 154.191559
+2023-07-20 22:55: Train Epoch 0: 60/490 Loss: 139.400604
+2023-07-20 22:55: Train Epoch 0: 80/490 Loss: 90.793472
+2023-07-20 22:55: Train Epoch 0: 100/490 Loss: 103.376610
+2023-07-20 22:55: Train Epoch 0: 120/490 Loss: 75.097649
+2023-07-20 22:55: Train Epoch 0: 140/490 Loss: 78.383171
+2023-07-20 22:55: Train Epoch 0: 160/490 Loss: 59.757858
+2023-07-20 22:55: Train Epoch 0: 180/490 Loss: 59.280426
+2023-07-20 22:55: Train Epoch 0: 200/490 Loss: 43.218437
+2023-07-20 22:56: Train Epoch 0: 220/490 Loss: 43.725292
+2023-07-20 22:56: Train Epoch 0: 240/490 Loss: 40.205994
+2023-07-20 22:56: Train Epoch 0: 260/490 Loss: 37.800602
+2023-07-20 22:56: Train Epoch 0: 280/490 Loss: 30.326139
+2023-07-20 22:56: Train Epoch 0: 300/490 Loss: 25.356672
+2023-07-20 22:56: Train Epoch 0: 320/490 Loss: 27.924700
+2023-07-20 22:56: Train Epoch 0: 340/490 Loss: 25.512245
+2023-07-20 22:56: Train Epoch 0: 360/490 Loss: 23.308172
+2023-07-20 22:56: Train Epoch 0: 380/490 Loss: 26.395290
+2023-07-20 22:56: Train Epoch 0: 400/490 Loss: 26.784201
+2023-07-20 22:56: Train Epoch 0: 420/490 Loss: 20.734154
+2023-07-20 22:56: Train Epoch 0: 440/490 Loss: 20.307169
+2023-07-20 22:56: Train Epoch 0: 460/490 Loss: 22.466827
+2023-07-20 22:56: Train Epoch 0: 480/490 Loss: 20.896156
+2023-07-20 22:56: **********Train Epoch 0: averaged Loss: 59.881524, tf_ratio: 1.000000
+2023-07-20 22:57: **********Val Epoch 0: average Loss: 21.593788
+2023-07-20 22:57: ******Current best model saved:model_para/PEMS03/epoch_0.pth!
+2023-07-20 22:57: Train Epoch 1: 0/490 Loss: 21.302477
+2023-07-20 22:57: Train Epoch 1: 20/490 Loss: 20.122332
+2023-07-20 22:57: Train Epoch 1: 40/490 Loss: 22.982222
+2023-07-20 22:57: Train Epoch 1: 60/490 Loss: 17.977980
+2023-07-20 22:57: Train Epoch 1: 80/490 Loss: 21.362137
+2023-07-20 22:57: Train Epoch 1: 100/490 Loss: 24.703264
+2023-07-20 22:57: Train Epoch 1: 120/490 Loss: 22.581017
+2023-07-20 22:57: Train Epoch 1: 140/490 Loss: 19.136904
+2023-07-20 22:57: Train Epoch 1: 160/490 Loss: 17.419477
+2023-07-20 22:57: Train Epoch 1: 180/490 Loss: 20.236000
+2023-07-20 22:57: Train Epoch 1: 200/490 Loss: 19.653166
+2023-07-20 22:57: Train Epoch 1: 220/490 Loss: 19.945261
+2023-07-20 22:57: Train Epoch 1: 240/490 Loss: 19.367691
+2023-07-20 22:57: Train Epoch 1: 260/490 Loss: 19.568861
+2023-07-20 22:58: Train Epoch 1: 280/490 Loss: 20.240393
+2023-07-20 22:58: Train Epoch 1: 300/490 Loss: 19.198618
+2023-07-20 22:58: Train Epoch 1: 320/490 Loss: 19.657854
+2023-07-20 22:58: Train Epoch 1: 340/490 Loss: 20.339516
+2023-07-20 22:58: Train Epoch 1: 360/490 Loss: 19.874550
+2023-07-20 22:58: Train Epoch 1: 380/490 Loss: 19.774191
+2023-07-20 22:58: Train Epoch 1: 400/490 Loss: 16.641045
+2023-07-20 22:58: Train Epoch 1: 420/490 Loss: 21.940676
+2023-07-20 22:58: Train Epoch 1: 440/490 Loss: 22.152840
+2023-07-20 22:58: Train Epoch 1: 460/490 Loss: 21.242537
+2023-07-20 22:58: Train Epoch 1: 480/490 Loss: 18.181725
+2023-07-20 22:58: **********Train Epoch 1: averaged Loss: 20.433833, tf_ratio: 1.000000
+2023-07-20 22:58: **********Val Epoch 1: average Loss: 18.585992
+2023-07-20 22:58: ******Current best model saved:model_para/PEMS03/epoch_1.pth!
+2023-07-20 22:58: Total training time: 3.6079min, best loss: 18.585992
+2023-07-20 22:58: Saving current best model to model_para/PEMS03\best_model.pth
+2023-07-20 22:59: Horizon 01, MAE: 16.49, RMSE: 27.25, MAPE: 13.9173%
+2023-07-20 22:59: Horizon 02, MAE: 16.52, RMSE: 27.52, MAPE: 13.7580%
+2023-07-20 22:59: Horizon 03, MAE: 16.61, RMSE: 27.80, MAPE: 13.6314%
+2023-07-20 22:59: Horizon 04, MAE: 16.79, RMSE: 28.13, MAPE: 13.6640%
+2023-07-20 22:59: Horizon 05, MAE: 17.00, RMSE: 28.58, MAPE: 13.5540%
+2023-07-20 22:59: Horizon 06, MAE: 17.42, RMSE: 29.30, MAPE: 13.6852%
+2023-07-20 22:59: Horizon 07, MAE: 18.01, RMSE: 30.24, MAPE: 13.9993%
+2023-07-20 22:59: Horizon 08, MAE: 18.65, RMSE: 31.20, MAPE: 14.3935%
+2023-07-20 22:59: Horizon 09, MAE: 19.41, RMSE: 32.34, MAPE: 14.9294%
+2023-07-20 22:59: Horizon 10, MAE: 20.18, RMSE: 33.46, MAPE: 15.4692%
+2023-07-20 22:59: Horizon 11, MAE: 21.20, RMSE: 34.96, MAPE: 16.2774%
+2023-07-20 22:59: Horizon 12, MAE: 22.53, RMSE: 37.01, MAPE: 17.2479%
+2023-07-20 22:59: MAE: 18.40, RMSE: 30.80, MAPE: 14.5438%

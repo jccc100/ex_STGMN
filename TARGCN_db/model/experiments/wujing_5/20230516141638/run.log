@@ -1,0 +1,12 @@
+2023-05-16 14:16: Experiment log path in: C:\Users\Jesse\Desktop\´ð±ç\Traffic_models\TARGCN_wujing\model\experiments\wujing_5\20230516141638
+2023-05-16 14:16: Train Epoch 1: 0/161 Loss: 59.781013
+2023-05-16 14:16: Train Epoch 1: 20/161 Loss: 56.586376
+2023-05-16 14:16: Train Epoch 1: 40/161 Loss: 51.437679
+2023-05-16 14:16: Train Epoch 1: 60/161 Loss: 49.252411
+2023-05-16 14:16: Train Epoch 1: 80/161 Loss: 37.275879
+2023-05-16 14:16: Train Epoch 1: 100/161 Loss: 40.521286
+2023-05-16 14:16: Train Epoch 1: 120/161 Loss: 29.997747
+2023-05-16 14:16: Train Epoch 1: 140/161 Loss: 45.397060
+2023-05-16 14:16: Train Epoch 1: 160/161 Loss: 32.090221
+2023-05-16 14:16: **********Train Epoch 1: averaged Loss: 44.652336, tf_ratio: 1.000000
+2023-05-16 14:16: **********Val Epoch 1: average Loss: 9.068739

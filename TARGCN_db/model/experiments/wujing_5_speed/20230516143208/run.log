@@ -1,0 +1,27 @@
+2023-05-16 14:32: Experiment log path in: C:\Users\Jesse\Desktop\´ð±ç\Traffic_models\TARGCN_wujing\model\experiments\wujing_5_speed\20230516143208
+2023-05-16 14:32: Train Epoch 1: 0/161 Loss: 72.275902
+2023-05-16 14:32: Train Epoch 1: 20/161 Loss: 72.464584
+2023-05-16 14:32: Train Epoch 1: 40/161 Loss: 65.523987
+2023-05-16 14:32: Train Epoch 1: 60/161 Loss: 55.822987
+2023-05-16 14:32: Train Epoch 1: 80/161 Loss: 46.725979
+2023-05-16 14:32: Train Epoch 1: 100/161 Loss: 38.069511
+2023-05-16 14:32: Train Epoch 1: 120/161 Loss: 29.086103
+2023-05-16 14:32: Train Epoch 1: 140/161 Loss: 17.869301
+2023-05-16 14:32: Train Epoch 1: 160/161 Loss: 10.274613
+2023-05-16 14:32: **********Train Epoch 1: averaged Loss: 45.674965, tf_ratio: 1.000000
+2023-05-16 14:32: **********Val Epoch 1: average Loss: 6.906066
+2023-05-16 14:32: ******Current best model saved:model_para/wujing_5_speed/epoch_1.pth!
+2023-05-16 14:32: Train Epoch 2: 0/161 Loss: 9.079261
+2023-05-16 14:32: Train Epoch 2: 20/161 Loss: 6.059658
+2023-05-16 14:32: Train Epoch 2: 40/161 Loss: 6.942424
+2023-05-16 14:32: Train Epoch 2: 60/161 Loss: 5.868394
+2023-05-16 14:32: Train Epoch 2: 80/161 Loss: 5.645433
+2023-05-16 14:32: Train Epoch 2: 100/161 Loss: 5.711748
+2023-05-16 14:32: Train Epoch 2: 120/161 Loss: 6.033572
+2023-05-16 14:32: Train Epoch 2: 140/161 Loss: 5.451689
+2023-05-16 14:32: Train Epoch 2: 160/161 Loss: 5.871345
+2023-05-16 14:32: **********Train Epoch 2: averaged Loss: 6.304478, tf_ratio: 1.000000
+2023-05-16 14:32: **********Val Epoch 2: average Loss: 4.438970
+2023-05-16 14:32: ******Current best model saved:model_para/wujing_5_speed/epoch_2.pth!
+2023-05-16 14:32: Total training time: 0.4161min, best loss: 4.438970
+2023-05-16 14:32: Saving current best model to model_para/wujing_5_speed\best_model.pth
